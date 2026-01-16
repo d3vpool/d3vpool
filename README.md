@@ -6,7 +6,7 @@
 </a>
 </p>
 
-- 🔭 I'm currently working on **a full-stack MERN web application for finding and connecting blood donors**
+- 🔭 I'm currently working on **a full-stack web application for finding and connecting blood donors**
 - 🌱 I'm currently learning **Advanced React, Data Structures & Algorithms, and TypeScript**
 - 👯 I'm looking to collaborate on **open-source projects and real-world MERN stack applications**
 - 🤝 I'm looking for help with **system design and backend scalability**
