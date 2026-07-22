@@ -34,9 +34,9 @@ TOKEN = os.environ.get("GH_TOKEN")
 STATIC_FIELDS = {
     "os": "Windows 11, Linux",
     "host": "Bengaluru, India",
-    "kernel": "MERN Stack Developer",
-    "ide": "VSCode, Postman",
-    "languages_programming": "Java, JavaScript, TypeScript, C++",
+    "kernel": "Full Stack Developer",
+    "ide": "VSCode 1.129.1",
+    "languages_programming": "Java, JavaScript, TypeScript",
     "languages_computer": "HTML, CSS, JSON",
     "languages_real": "English, Hindi",
     "hobbies_software": "DSA Practice, Open Source",
