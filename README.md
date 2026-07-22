@@ -1,3 +1,8 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/d3vpool/d3vpool/main/dark_mode.svg">
+  <img alt="My GitHub stats" src="https://raw.githubusercontent.com/d3vpool/d3vpool/main/light_mode.svg">
+</picture>
+
 # Hi 👋, I'm Nitin Raj
 
 ### Full-Stack (MERN) Developer | DSA Enthusiast
