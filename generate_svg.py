@@ -34,9 +34,9 @@ TOKEN = os.environ.get("GH_TOKEN")
 STATIC_FIELDS = {
     "os": "Windows 11, Linux",
     "host": "Bengaluru, India",
-    "kernel": "Full Stack Developer",
-    "ide": "VSCode 1.129.1",
-    "languages_programming": "Java, JavaScript, TypeScript",
+    "kernel": "MERN Stack Developer",
+    "ide": "VSCode, Postman",
+    "languages_programming": "Java, JavaScript, TypeScript, C++",
     "languages_computer": "HTML, CSS, JSON",
     "languages_real": "English, Hindi",
     "hobbies_software": "DSA Practice, Open Source",
@@ -57,7 +57,7 @@ query($login: String!) {
     createdAt
     followers { totalCount }
     following { totalCount }
-    repositories(first: 100, ownerAffiliations: OWNER, isFork: false, privacy: PUBLIC) {
+    repositories(first: 100, ownerAffiliations: OWNER, privacy: PUBLIC) {
       totalCount
       nodes {
         name
@@ -154,8 +154,14 @@ def get_lines_of_code(login, repos):
                     check=True,
                     timeout=120,
                 )
+                # NOTE: no --author filter here. git commits are authored under
+                # whatever name/email you had configured locally (e.g. "Nitin Raj"
+                # <raj.nitin.0113@gmail.com>), not your GitHub login ("d3vpool") --
+                # filtering by login matched zero commits, which is why Lines of
+                # Code was showing as 0. Since these are your own, non-fork,
+                # owner-affiliated repos already, we just count every commit.
                 result = subprocess.run(
-                    ["git", "-C", clone_dir, "log", f"--author={login}", "--shortstat", "--pretty=format:"],
+                    ["git", "-C", clone_dir, "log", "--shortstat", "--pretty=format:"],
                     check=True,
                     capture_output=True,
                     text=True,
@@ -209,12 +215,17 @@ def main():
     user, total_commits = get_total_commit_contributions(USERNAME)
 
     repos = user["repositories"]["nodes"]
-    total_stars = sum(r["stargazerCount"] for r in repos)
+    # Repos now includes forks (matches what shows on your profile page).
+    # Stars and lines-of-code stay based on non-fork repos only -- a fork's
+    # commit history belongs to the upstream project, not you, and counting
+    # it here would massively inflate (and misattribute) both numbers.
+    non_fork_repos = [r for r in repos if not r["isFork"]]
+    total_stars = sum(r["stargazerCount"] for r in non_fork_repos)
     repo_count = user["repositories"]["totalCount"]
     contributed_to = user["repositoriesContributedTo"]["totalCount"]
 
     print("Computing lines of code (this clones each repo shallowly, may take a bit)...")
-    additions, deletions = get_lines_of_code(USERNAME, repos)
+    additions, deletions = get_lines_of_code(USERNAME, non_fork_repos)
 
     created = datetime.fromisoformat(user["createdAt"].replace("Z", "+00:00"))
     age_days = (datetime.now(timezone.utc) - created).days
