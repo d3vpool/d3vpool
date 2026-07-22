@@ -869,10 +869,10 @@
 
   <text x="310" y="112" class="fg">. OS:<tspan class="dim" dx="10">Windows 11, Linux</tspan></text>
   <text x="310" y="136" class="fg">. Host:<tspan class="dim" dx="10">Bengaluru, India</tspan></text>
-  <text x="310" y="160" class="fg">. Role:<tspan class="dim" dx="10">MERN Stack Developer</tspan></text>
-  <text x="310" y="184" class="fg">. Tools:<tspan class="dim" dx="10">VSCode, Postman</tspan></text>
+  <text x="310" y="160" class="fg">. Role:<tspan class="dim" dx="10">Full Stack Developer</tspan></text>
+  <text x="310" y="184" class="fg">. Tools:<tspan class="dim" dx="10">VSCode 1.129.1</tspan></text>
 
-  <text x="310" y="220" class="fg">. Languages.Programming:<tspan class="dim" dx="10">Java, JavaScript, TypeScript, C++</tspan></text>
+  <text x="310" y="220" class="fg">. Languages.Programming:<tspan class="dim" dx="10">Java, JavaScript, TypeScript</tspan></text>
   <text x="310" y="244" class="fg">. Languages.Computer:<tspan class="dim" dx="10">HTML, CSS, JSON</tspan></text>
   <text x="310" y="268" class="fg">. Languages.Real:<tspan class="dim" dx="10">English, Hindi</tspan></text>
 
@@ -887,7 +887,7 @@
   <text x="310" y="476" class="header">- GitHub Stats <tspan class="dim">------------------------------------------</tspan></text>
   <text x="310" y="504" class="fg">. Repos:<tspan class="accent" dx="10">10</tspan><tspan class="dim" dx="16">(contributed to 2)</tspan></text>
   <text x="310" y="528" class="fg">. Stars:<tspan class="accent" dx="10">0</tspan><tspan class="dim" dx="30">Followers:<tspan class="accent" dx="10">4</tspan></tspan></text>
-  <text x="310" y="552" class="fg">. Commits (all-time):<tspan class="accent" dx="10">78</tspan></text>
+  <text x="310" y="552" class="fg">. Commits (all-time):<tspan class="accent" dx="10">79</tspan></text>
   <text x="310" y="576" class="fg">. Lines of Code:<tspan class="accent" dx="10">0</tspan><tspan class="dim" dx="10">( <tspan fill="#39d353">0++</tspan>, <tspan fill="#f85149">0--</tspan> )</tspan></text>
 
   <text x="310" y="612" class="dim" font-size="12">Uptime: 2 years, 2 months, 11 days on GitHub</text>
