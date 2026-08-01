@@ -127,8 +127,14 @@ def get_lines_of_code(login, repos):
     """
     cache = {}
     if os.path.exists(CACHE_FILE):
-        with open(CACHE_FILE) as f:
-            cache = json.load(f)
+        try:
+            with open(CACHE_FILE) as f:
+                cache = json.load(f)
+        except (json.JSONDecodeError, ValueError):
+            # Empty or corrupt cache file (e.g. left as a 0-byte file after a
+            # web UI "delete") -- just start fresh instead of crashing.
+            print(f"  [warn] {CACHE_FILE} is empty/invalid, starting with an empty cache")
+            cache = {}
 
     additions, deletions = 0, 0
     tmp_root = tempfile.mkdtemp(prefix="loc_")
