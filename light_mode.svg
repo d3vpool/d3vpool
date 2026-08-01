@@ -12,14 +12,14 @@
 
   <text x="32" y="49.0" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="header">nitin@d3vpool <tspan class="dim">------------------------------------------------------------------------------</tspan></text>
   <text x="32" y="73.8" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. OS: .................................................................... <tspan class="val">Windows 11, Linux</tspan></text>
-  <text x="32" y="98.5" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Location: ............................................................... <tspan class="val">{{location}}</tspan></text>
-  <text x="32" y="123.2" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Role: ............................................................... <tspan class="val">MERN Stack Developer</tspan></text>
+  <text x="32" y="98.5" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Location: ............................................................... <tspan class="val">Bengaluru, India</tspan></text>
+  <text x="32" y="123.2" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Role: ............................................................... <tspan class="val">Full Stack Developer</tspan></text>
   <text x="32" y="148.0" class="fg dimtext">.</text>
-  <text x="32" y="172.8" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Languages.Programming: ................................. <tspan class="val">Java, JavaScript, TypeScript, C++</tspan></text>
+  <text x="32" y="172.8" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Languages.Programming: ................................. <tspan class="val">Java, JavaScript, TypeScript, SQL</tspan></text>
   <text x="32" y="197.5" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Languages.Computer: ...................................................... <tspan class="val">HTML, CSS, JSON</tspan></text>
   <text x="32" y="222.2" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Languages.Real: ........................................................... <tspan class="val">English, Hindi</tspan></text>
   <text x="32" y="247.0" class="fg dimtext">.</text>
-  <text x="32" y="271.8" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Technologies: .................................. <tspan class="val">{{technologies}}</tspan></text>
+  <text x="32" y="271.8" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Technologies: .................................. <tspan class="val">React.js, Node.js, Express.js, PostgreSQL</tspan></text>
   <text x="32" y="296.5" class="fg dimtext">.</text>
   <text x="32" y="321.2" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Hobbies.Software: .............................................. <tspan class="val">DSA Practice, Open Source</tspan></text>
   <text x="32" y="346.0" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Hobbies.Other: .................................................. <tspan class="val">Late-Night Coding, Music</tspan></text>
@@ -31,8 +31,8 @@
   <text x="32" y="494.5" class="fg dimtext">.</text>
   <text x="32" y="519.2" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="header">- GitHub Stats <tspan class="dim">-----------------------------------------------------------------------------</tspan></text>
   <text x="32" y="544.0" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">Repos: ................. <tspan class="val">16</tspan> {Contributed: 2} | Stars: .................................. 0</text>
-  <text x="32" y="568.8" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">Commits: ................................ <tspan class="val">96</tspan> | Followers: ............................... 8</text>
-  <text x="32" y="593.5" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Lines of Code: ................................... <tspan class="val">11,986,856</tspan> ( 6,018,619++, 5,968,237-- )</text>
+  <text x="32" y="568.8" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">Commits: ................................ <tspan class="val">97</tspan> | Followers: ............................... 8</text>
+  <text x="32" y="593.5" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Lines of Code: ................................... <tspan class="val">11,986,904</tspan> ( 6,018,645++, 5,968,259-- )</text>
   <text x="32" y="618.2" class="fg dimtext">.</text>
   <text x="32" y="643.0" xml:space="preserve" class="fg">Uptime: <tspan class="val">2 years, 2 months, 21 days</tspan> on GitHub</text>
 </svg>
