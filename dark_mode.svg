@@ -31,8 +31,8 @@
   <text x="32" y="494.5" class="fg dimtext">.</text>
   <text x="32" y="519.2" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="header">- GitHub Stats <tspan class="dim">-----------------------------------------------------------------------------</tspan></text>
   <text x="32" y="544.0" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">Repos: ................. <tspan class="val">16</tspan> {Contributed: 2} | Stars: .................................. 0</text>
-  <text x="32" y="568.8" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">Commits: ................................ <tspan class="val">99</tspan> | Followers: ............................... 8</text>
-  <text x="32" y="593.5" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Lines of Code: ................................... <tspan class="val">105,446</tspan> ( 76,148++, 29,298-- )</text>
+  <text x="32" y="568.8" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">Commits: ................................ <tspan class="val">100</tspan> | Followers: ............................... 8</text>
+  <text x="32" y="593.5" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Lines of Code: ................................... <tspan class="val">105,452</tspan> ( 76,151++, 29,301-- )</text>
   <text x="32" y="618.2" class="fg dimtext">.</text>
   <text x="32" y="643.0" xml:space="preserve" class="fg">Uptime: <tspan class="val">2 years, 2 months, 21 days</tspan> on GitHub</text>
 </svg>
