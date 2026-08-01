@@ -1,96 +1,38 @@
-<svg width="1000" height="660" viewBox="0 0 1000 660" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
+<svg width="892" height="687" viewBox="0 0 892 687" xmlns="http://www.w3.org/2000/svg" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace">
   <style>
     .bg { fill: #0d1117; }
     .fg { fill: #c9d1d9; font-size: 15px; }
-    .dim { fill: #8b949e; font-size: 15px; }
-    .accent { fill: #39d353; font-size: 15px; font-weight: 600; }
-    .header { fill: #39d353; font-size: 17px; font-weight: 700; }
-    .rule { stroke: #30363d; stroke-width: 1; }
-    .caption { fill: #c9d1d9; font-size: 14px; font-weight: 700; }
-    .caption-dim { fill: #8b949e; font-size: 12px; }
-    .ascii { fill: #9ba7b4; font-size: 7px; letter-spacing: 0; }
+    .dim { fill: #484f58; font-size: 15px; }
+    .dimtext { fill: #484f58; }
+    .val { fill: #79c0ff; font-weight: 600; }
+    .header { fill: #39d353; font-size: 15px; font-weight: 700; }
   </style>
 
-  <rect class="bg" x="0" y="0" width="1000" height="660" rx="14"/>
+  <rect class="bg" x="0" y="0" width="892" height="687" rx="12"/>
 
-  <!-- window chrome -->
-  <circle cx="30" cy="28" r="6" fill="#ff5f56"/>
-  <circle cx="52" cy="28" r="6" fill="#ffbd2e"/>
-  <circle cx="74" cy="28" r="6" fill="#27c93f"/>
-  <line class="rule" x1="0" y1="48" x2="1000" y2="48"/>
-
-  <!-- ASCII-art portrait, left column -->
-  <text x="40" y="67.0" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">@@@@@@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%@@@@@@%%%%%%%%%%%%%%%%%%%%%%</text>
-  <text x="40" y="75.0" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">@@@@@@@@@@@@@@@@@@@@@@@@%%%%%%%%%%%%%%%%@@@@@@@@@@@@@@@@@@@@@@@@</text>
-  <text x="40" y="83.1" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%##%########****######</text>
-  <text x="40" y="91.2" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">++******++++++++++*#%%%%%%%%%%%%%%%%%%%%%%#+---------:::::::::::</text>
-  <text x="40" y="99.2" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">++++++++++++++==+#%%%@%%%%%%%%%%%%%%%%%%%%%%*-::::::::::::::::::</text>
-  <text x="40" y="107.2" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">+++++++++++++=+*%@@%%%%%@%%%%%%%%%%%%%%%%%%%%#-::::::::::::.....</text>
-  <text x="40" y="115.3" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">+++++++++++++*#%@%@@@@@%%%%%%%%%%%%%%%%%%%%%%%#=.:..............</text>
-  <text x="40" y="123.3" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">+++++++++++=#@@@@@@@%%%%#####%%%%%%#%%#%%%%%%%%#-...............</text>
-  <text x="40" y="131.4" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">+++++++++++*%@@@@@%#**+++++++++**#######%%%%%%%%*............   </text>
-  <text x="40" y="139.4" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">++++++++**#@@@@@@%****+=--::---:-+*#####*+*######- ..           </text>
-  <text x="40" y="147.5" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">*+++++++++%@@@@@%#%%##%#*+--:::-=+******#*+=+###%=              </text>
-  <text x="40" y="155.5" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">######**++##%%@%%#*=--==++=-:.:---=-:::-=++==###%=              </text>
-  <text x="40" y="163.6" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">#####***+****%@%#+++=+====+=-::--===+====--==+###-:::.....      </text>
-  <text x="40" y="171.6" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">###*****#####%%%++#+-*#+-++-----=+=-*#==*=---+##*===-----:::::::</text>
-  <text x="40" y="179.7" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">######*#######%#+++=-==-=+=------------------+#%+---:::::::::...</text>
-  <text x="40" y="187.8" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">####*###**##**%#+=-----=+=:::::--:::::::::---+##=-:::::.........</text>
-  <text x="40" y="195.8" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">########*##***#*=------==+=::==-:::::::::::--+*=-:::........    </text>
-  <text x="40" y="203.8" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">########*####**+==---:-==++=--=--::::::::::--=---:......        </text>
-  <text x="40" y="211.9" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">#############**+==------==---::--::::::::---==-:-.....          </text>
-  <text x="40" y="219.9" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">%####%########**+=========---------::-:::---==---...            </text>
-  <text x="40" y="228.0" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">###%@@%%%%%%%#*++=====+++====--===+=---:----==:--...            </text>
-  <text x="40" y="236.0" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">##*%%%%%%%%%%%**++=====+==------------------=--:...             </text>
-  <text x="40" y="244.1" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">##**############*++=====------::::::--------++==--::..          </text>
-  <text x="40" y="252.1" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">#******************+=====-----:::::------===#++*+++===---:....  </text>
-  <text x="40" y="260.2" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">********************+++===---:::::----=====**+*+=*+=+=-==-----:.</text>
-  <text x="40" y="268.2" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">======++++++++++*******+===--------====++==**+*++++++===-----:..</text>
-  <text x="40" y="276.3" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">++====----======++*#*****+++========++++=-=##***********++===-::</text>
-  <text x="40" y="284.3" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">%%###***+++=---=+#@#**#***+++++++++++=--:-=%#**********#########</text>
-  <text x="40" y="292.4" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">%%%%##@%%@* :#**###%#********+++++==-::::-+###*+*+*+++********##</text>
-  <text x="40" y="300.4" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">%%##*#%%%%+:*@%%#*#%#*+++++++====-:::::-=+***##+======++++++****</text>
-  <text x="40" y="308.5" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">%%##***#%%**%%%%%###*+======----:::::-=*##***#%*==---==========+</text>
-  <text x="40" y="316.5" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">##%####%##*%%#%@%%%#*+====---::::::-=*######**###**+=-----------</text>
-  <text x="40" y="324.6" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">%%%%%#%###%%##%%%%%#*++==---:-=++++****###*#%**#%#%%#*+=++=---=-</text>
-  <text x="40" y="332.6" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">%%%#####%%%##%%##%%%#++=----+#*#%##%%#*+*####*#%%%##%%#######%*=</text>
-  <text x="40" y="340.7" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">%%#####%%%%%%%%###%@%+==-:-*%%****##%%%#*#%*=*#%#***#*+###%%@*..</text>
-  <text x="40" y="348.7" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">%###*#%#####%##%#*%%%%+-=+#%#**#####%#%%#**=*######*#**#%%%%%**+</text>
-  <text x="40" y="356.8" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">###*#%#######*#++##%%%#*%%**##*%%%%%###*#***%%%%#%%%#%%###%##%%@</text>
-  <text x="40" y="364.8" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">%##%%%%%%###*#++###*#%*#*+######**##%%*#%#*%%%%%###%#%######%%%#</text>
-  <text x="40" y="372.9" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">##%%%%%%%%%*%#*####*#%%#+***###*****#*+##+#%%%%#%%%%*%%%%%%@@%#*</text>
-  <text x="40" y="380.9" xml:space="preserve" textLength="250" lengthAdjust="spacingAndGlyphs" class="ascii">#%%%%%%%%#*%#*%%%%###%###+*#*******##+**+=#**##**###*%%%#%@@%**%</text>
-
-  <text x="40" y="424" class="caption">d3vpool <tspan class="caption-dim">/ Nitin Raj</tspan></text>
-  <text x="40" y="444" class="caption-dim">Full-Stack (MERN) Developer</text>
-  <text x="40" y="462" class="caption-dim">DSA Enthusiast · Bengaluru</text>
-
-  <line class="rule" x1="300" y1="60" x2="300" y2="620"/>
-
-  <!-- right column: stats -->
-  <text x="330" y="80" class="header">nitin@d3vpool<tspan class="dim"> ------------------------------------------</tspan></text>
-
-  <text x="330" y="112" class="fg">. OS:<tspan class="dim" dx="10">{{os}}</tspan></text>
-  <text x="330" y="136" class="fg">. Host:<tspan class="dim" dx="10">{{host}}</tspan></text>
-  <text x="330" y="160" class="fg">. Role:<tspan class="dim" dx="10">{{kernel}}</tspan></text>
-
-  <text x="330" y="196" class="fg">. Languages.Programming:<tspan class="dim" dx="10">{{languages_programming}}</tspan></text>
-  <text x="330" y="220" class="fg">. Languages.Computer:<tspan class="dim" dx="10">{{languages_computer}}</tspan></text>
-  <text x="330" y="244" class="fg">. Languages.Real:<tspan class="dim" dx="10">{{languages_real}}</tspan></text>
-
-  <text x="330" y="280" class="fg">. Hobbies.Software:<tspan class="dim" dx="10">{{hobbies_software}}</tspan></text>
-  <text x="330" y="304" class="fg">. Hobbies.Other:<tspan class="dim" dx="10">{{hobbies_hardware}}</tspan></text>
-
-  <text x="330" y="340" class="header">- Contact <tspan class="dim">------------------------------------------------</tspan></text>
-  <text x="330" y="368" class="fg">. Email:<tspan class="dim" dx="10">{{email}}</tspan></text>
-  <text x="330" y="392" class="fg">. LinkedIn:<tspan class="dim" dx="10">{{linkedin}}</tspan></text>
-  <text x="330" y="416" class="fg">. GitHub:<tspan class="dim" dx="10">{{github}}</tspan></text>
-
-  <text x="330" y="452" class="header">- GitHub Stats <tspan class="dim">------------------------------------------</tspan></text>
-  <text x="330" y="480" class="fg">. Repos:<tspan class="accent" dx="10">{{repos}}</tspan><tspan class="dim" dx="16">(contributed to {{contributed}})</tspan></text>
-  <text x="330" y="504" class="fg">. Stars:<tspan class="accent" dx="10">{{stars}}</tspan><tspan class="dim" dx="30">Followers:<tspan class="accent" dx="10">{{followers}}</tspan></tspan></text>
-  <text x="330" y="528" class="fg">. Commits (all-time):<tspan class="accent" dx="10">{{commits}}</tspan></text>
-  <text x="330" y="552" class="fg">. Lines of Code:<tspan class="accent" dx="10">{{loc_total}}</tspan><tspan class="dim" dx="10">( <tspan fill="#39d353">{{loc_added}}++</tspan>, <tspan fill="#f85149">{{loc_removed}}--</tspan> )</tspan></text>
-
-  <text x="330" y="588" class="dim" font-size="12">Uptime: {{uptime}} on GitHub</text>
+  <text x="32" y="49.0" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="header">nitin@d3vpool <tspan class="dim">------------------------------------------------------------------------------</tspan></text>
+  <text x="32" y="73.8" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. OS: .................................................................... <tspan class="val">{{os}}</tspan></text>
+  <text x="32" y="98.5" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Location: ............................................................... <tspan class="val">{{location}}</tspan></text>
+  <text x="32" y="123.2" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Role: ............................................................... <tspan class="val">{{kernel}}</tspan></text>
+  <text x="32" y="148.0" class="fg dimtext">.</text>
+  <text x="32" y="172.8" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Languages.Programming: ................................. <tspan class="val">{{languages_programming}}</tspan></text>
+  <text x="32" y="197.5" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Languages.Computer: ...................................................... <tspan class="val">{{languages_computer}}</tspan></text>
+  <text x="32" y="222.2" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Languages.Real: ........................................................... <tspan class="val">{{languages_real}}</tspan></text>
+  <text x="32" y="247.0" class="fg dimtext">.</text>
+  <text x="32" y="271.8" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Technologies: .................................. <tspan class="val">{{technologies}}</tspan></text>
+  <text x="32" y="296.5" class="fg dimtext">.</text>
+  <text x="32" y="321.2" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Hobbies.Software: .............................................. <tspan class="val">{{hobbies_software}}</tspan></text>
+  <text x="32" y="346.0" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Hobbies.Other: .................................................. <tspan class="val">{{hobbies_hardware}}</tspan></text>
+  <text x="32" y="370.8" class="fg dimtext">.</text>
+  <text x="32" y="395.5" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="header">- Contact <tspan class="dim">----------------------------------------------------------------------------------</tspan></text>
+  <text x="32" y="420.2" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Email: .......................................................... <tspan class="val">{{email}}</tspan></text>
+  <text x="32" y="445.0" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. LinkedIn: ............................................................ <tspan class="val">{{linkedin}}</tspan></text>
+  <text x="32" y="469.8" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. GitHub: .......................................................................... <tspan class="val">{{github}}</tspan></text>
+  <text x="32" y="494.5" class="fg dimtext">.</text>
+  <text x="32" y="519.2" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="header">- GitHub Stats <tspan class="dim">-----------------------------------------------------------------------------</tspan></text>
+  <text x="32" y="544.0" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">Repos: ................. <tspan class="val">{{repos}}</tspan> {Contributed: {{contributed}}} | Stars: .................................. {{stars}}</text>
+  <text x="32" y="568.8" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">Commits: ................................ <tspan class="val">{{commits}}</tspan> | Followers: ............................... {{followers}}</text>
+  <text x="32" y="593.5" xml:space="preserve" textLength="828.0" lengthAdjust="spacingAndGlyphs" class="fg">. Lines of Code: ................................... <tspan class="val">{{loc_total}}</tspan> ( {{loc_added}}++, {{loc_removed}}-- )</text>
+  <text x="32" y="618.2" class="fg dimtext">.</text>
+  <text x="32" y="643.0" xml:space="preserve" class="fg">Uptime: <tspan class="val">{{uptime}}</tspan> on GitHub</text>
 </svg>
